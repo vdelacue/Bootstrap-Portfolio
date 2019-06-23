@@ -53,18 +53,18 @@ body {
   /* header */
   
   #masthead {
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    margin: 0 0 30px;
-    overflow: auto;
+    /* position: fixed; */
+    /* z-index: 99; */
+    /* width: 100%; */
+    /* margin: 0 0 30px; */
+    /* overflow: auto; */
     /* color: #ffffff; */
     /* background: #ffffff; */
     border-bottom: 2px solid #cccccc;
   }
   
-  #logo {
-    float: left;
+  /* #logo {
+    /* float: left; */
     width: 390px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -75,7 +75,7 @@ body {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
-  }
+  } */
   
   /* nav {
     float: right;
@@ -120,7 +120,7 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 130px;
+    /* padding-top: 130px; */
     min-height: calc(100vh - 70px);
   }
   
