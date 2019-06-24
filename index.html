@@ -3,56 +3,46 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <title>About | Vanessa de La Cuetara</title>
   <link rel="stylesheet" type="text/css" href="assests/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assests/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="assests/css/bootstrap.css">
+  
 </head>
 
 <body>
-  <div class="container bg-white rounded mt-3" id="masthead">
+  <header class="container md-white rounded mt-3 p-0" id="masthead">
+    <nav class="navbar navbar-expand-md navbar-light bg-light p-0">
+      <a class="navbar-brand rounded p-0" href="index.html"><span id="logo">Vanessa de La Cuetara</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="row clearfix">
-
-      <div class="col-md-8 p-0">
-        <a href="index.html" id="logo" class="rounded ">Vanessa de La Cuetara</a>
+      <div class="collapse navbar-collapse nav-align justify-content-end mr-4" id="navbarNavAltMarkup">
+        <ul class="navbar-nav p-0">
+          <li> <a class="nav-item nav-link" href="index.html">About</a></li>
+          <li><a class="nav-item nav-link" href="portfolio.html">Portfolio</a></li>
+          <li><a class="nav-item nav-link" href="contact.html">Contact</a></li>
+        </ul>
       </div>
-      <!-- tried adding these classes to navbar none worked float-right justify-content-end text-right -->
-      <div class="col-md-4 ml-8 p-0">
-        <nav class="navbar float-right">
-          <ul class="nav nav-pills nav-fill">
-            <li class="nav-item">
-              <a class="nav-link " href="index.html">About</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-    </div>
-
-  </div>
+    </nav>
+  </header>
 
   <div id="main-container" class="container bg-white rounded mt-4">
     <div class="row">
-      <div class="col-md-3 ml-3">
-        <h1>About Me</h1>
+      <div class="col-md-12 " >
+        <h1 class="p-2">About Me</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-3 justify-content-center">
-        <img src="assests/images/headshot.png"
+     
+      <div class="col-md-12 justify-content-center ">
+          <img src="assests/images/headshot.png"
           class="ml-3 auth-image figure-img img-fluid rounded-circle justify-content-center" alt="Vanessa">
-      </div>
-      <div class="col-md-8 ">
         <section class="post-content">
           <p>When you are little, you are often asked:</p>
           <blockquote>
@@ -67,9 +57,10 @@
               target="_blank">banal</a> and tangible answer like “A doctor, mechanic, or teacher”. Not that there’s
             anything wrong with that!</p>
 
-          <p><img src="https://media.giphy.com/media/26gspjl5bxzhSdJtK/giphy.gif"
-              alt="Seinfeld not that there's anything wrong with that scene"></p>
-
+          <img src="https://media.giphy.com/media/26gspjl5bxzhSdJtK/giphy.gif"
+              alt="Seinfeld not that there's anything wrong with that scene" class="rounded mx-auto mb-4">
+        </section>
+        <section class="post-content ml-3 mr-3">
           <p>Why not choose something more safe, with job security and a clearly marked road. For me, my answers seemed
             to want chaotic, dangerous, and unstable (in a good way?). My answers changed every few years from
             1981-2015, every response more different than the next.</p>
@@ -93,7 +84,7 @@
           </ul>
 
           <iframe width="560" height="315" src="https://www.youtube.com/embed/SEmYJKbP7BA" frameborder="0"
-            allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+            allow="autoplay; encrypted-media" allowfullscreen="" class="mx-auto"></iframe>
 
           <ul>
             <li><strong>CEO</strong> of DVS Entertainment Industries</li>
@@ -124,8 +115,8 @@
             is one profession all encompassing that touches every single profession in the world. Technology and
             Computers! No matter where you work or in what you work, programming is right there doing something. With a
             strong foundation in programming and software engineering I could use all the skills I have amassed during
-            my professional journey and put them to use. I have also strengthened these skills with the <a href="https://bootcamp.rutgers.edu/"
-            target="_blank">Rutgers Bootcamp</a> for Full-Stack Engineering. </p>
+            my professional journey and put them to use. I have also strengthened these skills with the <a
+              href="https://bootcamp.rutgers.edu/" target="_blank">Rutgers Bootcamp</a> for Full-Stack Engineering. </p>
 
           <p>It was clear I was destined to be in the world of technology. As a programmer or software developer I can
             work in any all professional worlds. I can build apps that use virtual reality to treat patients with Panic
