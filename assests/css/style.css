@@ -127,7 +127,7 @@ body {
   
   .main-section {
     float: left;
-    width: 100%;
+    /* width: 100%; */
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
@@ -217,4 +217,25 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+  
+  /* // Extra small devices (portrait phones, less than 576px)// */
+  /* NEEDED TO DO A MEDIA QUERY SO THAT THE YOUTUBE VIDEO 
+  STAYED WITHIN CONTENT BOX ON EXTRA SMALL SCREENS */
+  @media (max-width: 575.98px) { 
+    iframe {
+      width: 400px;
+    }
+  }
+  
+  /* // Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) { 
+
+  }
+  
+  /* // Medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) { ... }
+  
+  /* // Large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) { ... }
+  
   
