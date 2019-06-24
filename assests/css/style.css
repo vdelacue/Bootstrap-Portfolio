@@ -63,8 +63,8 @@ body {
     border-bottom: 2px solid #cccccc;
   }
   
-  /* #logo {
-    /* float: left; */
+  #logo {
+    float: left;
     width: 390px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -75,7 +75,8 @@ body {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
-  } */
+    padding: 0%;
+  }
   
   /* nav {
     float: right;
